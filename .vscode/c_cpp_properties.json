@@ -1,0 +1,22 @@
+// change the path to esp-idf and xtensa-esp32sX-elf accordingly
+
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "~/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/xtensa-esp32s3-elf/include/**",
+                "~/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/xtensa-esp32s3-elf/sys-include/**",
+                "~/esp/esp-idf-v5.1/components/freertos/FreeRTOS-Kernel/**",
+                "~/esp/esp-idf-v5.1/components/**"
+            ],
+            "defines": [],
+            "compilerPath": "~/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc",
+            "forcedInclude": [
+                "${workspaceFolder}/sdkconfig.h"
+            ]
+        }
+    ],
+    "version": 4
+}
