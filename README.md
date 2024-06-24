@@ -16,7 +16,7 @@ git clone -b release/v5.0 --recursive https://github.com/espressif/esp-idf.git
 The following command sets up the tools used by ESP-IDF for ESP32-S2 and ESP32-S3.
 
 ```shell
-cd ~/esp/esp-idf-5.0
+cd ~/esp/esp-idf-v5.0
 ./install.sh esp32s2, esp32s3
 ```
 
@@ -32,7 +32,7 @@ The following command sets ESP32-S3 as the target for the project.
 idf.py set-target esp32s3
 ```
 
-> After this command, a header file called `sdkconfig.h` would be created in the `build` directory.
+> After this command, a header file called `sdkconfig.h` would be created in the `build` directory and a file called `sdkconfig` would be created in the project root directory.
 
 # Building
 In the project root directory, use the following command:
